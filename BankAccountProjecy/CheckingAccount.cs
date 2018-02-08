@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BankAccountProjecy
 {
-    public class CheckingAccount : Accounts
+     class CheckingAccount : Accounts
     {
 
         //feilds
@@ -29,7 +29,7 @@ namespace BankAccountProjecy
 
         //methods
 
-        public void SeeBalance()
+        public override void SeeBalance()
         {
             this.Balance = checking;
             Console.WriteLine("current balance: " + Balance);

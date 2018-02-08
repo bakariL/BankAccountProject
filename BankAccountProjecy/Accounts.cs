@@ -38,9 +38,9 @@ namespace BankAccountProjecy
 
         }
 
-        public void GetCKBalance(int balance)
+        public virtual void SeeBalance()
         {
-            this.balance = balance;
+            this.Balance = balance;
         }
 
         public void GetAccountNumber(int accountNumber)
