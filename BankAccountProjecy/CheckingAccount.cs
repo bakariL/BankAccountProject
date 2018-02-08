@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BankAccountProjecy
 {
-     class CheckingAccount : Accounts
+    public class CheckingAccount : Accounts
     {
 
         //feilds

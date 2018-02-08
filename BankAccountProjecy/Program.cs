@@ -12,7 +12,7 @@ namespace BankAccountProjecy
         {
 
             Client info = new Client();
-            Accounts userAccount = new Accounts();
+            //Accounts userAccount = new Accounts();
             CheckingAccount userChecking = new CheckingAccount();
             Savings userSavings = new Savings();
 

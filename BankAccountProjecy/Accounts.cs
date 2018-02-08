@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace BankAccountProjecy
 {
-    public class Accounts
+     public abstract class Accounts
     {
         //fields
-        private int accountNumber;
+        //private int accountNumber;
         private int balance;
 
         
@@ -26,11 +26,6 @@ namespace BankAccountProjecy
             //default constructor
         }
 
-        public Accounts(int balance)
-        {
-            this.Balance = balance;
-        }
-
 
         //methods
         public static void Clear()
@@ -43,11 +38,11 @@ namespace BankAccountProjecy
             this.Balance = balance;
         }
 
-        public void GetAccountNumber(int accountNumber)
-        {
-            this.AccountNumber = accountNumber;
-            Console.WriteLine(AccountNumber);
-        }
+        //public void GetAccountNumber(int accountNumber)
+        //{
+        //    this.AccountNumber = accountNumber;
+        //    Console.WriteLine(AccountNumber);
+        //}
 
     }
 }
